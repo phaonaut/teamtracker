@@ -27,7 +27,11 @@
       "PROGRESS_BAR",
       "DIALOG",
       "DRAWER",
-      "CARD"
+      "CARD",
+      "NAVIGATION",
+      "APP_BAR",
+      "LINK"
+
     ],
     "customProperties": {
       "animation-duration": "0.3s",

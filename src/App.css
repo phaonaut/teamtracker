@@ -1,24 +1,52 @@
-.App {
-  text-align: center;
+.bgGrey{
+  background-color: #d5d5dc;
+}
+/*grabbing the header*/
+._3gTh_,
+.p2nb7 {
+  background-color: #4B4B5A;
+}
+.LargeText p {
+  font-size: 60px;
+  color: red;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.cardContainer {
+  margin: 40px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
+/*individual card class*/
+._1UkvN {
+  margin: 20px;
+  width: 300px;
+  height: 300px;
+}
+
+.buffer {
+  margin: 20px;
   padding: 20px;
-  color: white;
 }
 
-.App-intro {
-  font-size: large;
+.circleButtonRed {
+  background-color: red;
+  width: 60px;
+  height: 60px;
+  margin: 15px;
+  border-radius: 50%;
 }
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.circleButtonGreen {
+  background-color: limegreen;
+  width: 60px;
+  height: 60px;
+  margin: 15px;
+  border-radius: 50%;
+}
+.circleButtonBlue {
+  background-color: royalblue;
+  width: 60px;
+  height: 60px;
+  margin: 15px;
+  border-radius: 50%;
 }
