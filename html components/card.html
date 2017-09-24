@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        /* centering only */
+        #container {
+            display: flex;
+            justify-content: center;
+            background-color: #dadbe1;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* list of colors
+            red: #c1272d
+            blue: #0071bc
+            green: #8cc63f
+
+            light gray: #dadbe1
+            dark gray: #4d4d4d
+            dark purple: #323445
+        */
+
+
+        /* Card Style */
+        .card {
+            width: 320px;
+            height: 320px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: white;
+            font-family: "Open Sans" , sans-serif;
+        }
+        .cardBanner {
+            height: 50px;
+            color: white;
+            font-size: 26pt;
+            text-align: center;
+        }
+        .cardNumber {
+            font-size: 120pt;
+            text-align: center;
+            color: #4d4d4d;
+        }
+        .cardText {
+            font-size: 15pt;
+            text-align: center;
+            text-decoration: none;
+            color: #4d4d4d;
+        }
+
+    </style>
+</head>
+<body id="container">
+
+    <div class="card">
+        <div style="background-color: #c1272d;" class="cardBanner">TEAMS</div>
+        <div class="cardNumber">13</div>
+        <a class="cardText" href="#">Manage Teams</a>
+    </div>
+
+</body>
+</html>
